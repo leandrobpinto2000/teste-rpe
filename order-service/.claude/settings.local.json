@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(docker stop $\\(docker ps -q\\) 2>$null; docker ps)",
+      "PowerShell(docker compose down)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\leand\\\\order-service\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "PowerShell(\"---\")"
+    ]
+  }
+}
