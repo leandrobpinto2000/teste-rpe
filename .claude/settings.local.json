@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir c:\\\\Users\\\\leand\\\\teste /B)",
+      "Bash(npx tsc *)",
+      "Bash(cd /c/Users/leand/teste/order-web && rm -rf .next && npx tsc --noEmit && echo OK_TYPECHECK)",
+      "Bash(./mvnw -q compile)"
+    ],
+    "additionalDirectories": [
+      "c:\\c\\Users\\leand\\teste\\order-web"
+    ]
+  }
+}
